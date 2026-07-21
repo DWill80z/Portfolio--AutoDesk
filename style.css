@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     color: #1d1d1f;
+    background: white;
 }
 
 nav {
@@ -10,7 +11,7 @@ nav {
 
 .hero {
     text-align: center;
-    padding: 120px 20px;
+    padding: 100px 20px;
 }
 
 .hero h1 {
@@ -19,10 +20,9 @@ nav {
 }
 
 .hero p {
-    font-size: 24px;
+    font-size: 22px;
     color: #666;
 }
-
 
 .project {
     text-align: center;
@@ -32,15 +32,16 @@ nav {
 .project img {
     width: 80%;
     max-width: 900px;
+    border-radius: 12px;
 }
 
 .project h2 {
-    font-size: 45px;
-    margin-top: 50px;
+    font-size: 42px;
+    margin-top: 40px;
 }
 
 .project p {
-    max-width: 600px;
+    max-width: 650px;
     margin: 20px auto;
     font-size: 20px;
     line-height: 1.6;
@@ -48,5 +49,10 @@ nav {
 
 .skills {
     color: #666;
-    margin-top: 25px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    color: #777;
 }
